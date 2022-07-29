@@ -1,6 +1,6 @@
 # CW-Storage-Plus: Enhanced storage engines for CosmWasm
 
-After building `cosmwasm-storage`, we realized many of the design decisions were
+After building `cosmwasm-storage = { git = "https://github.com/aeryz/cosmwasm.git", branch = "serde-without-wasm"`, we realized many of the design decisions were
 limiting us and producing a lot of needless boilerplate. The decision was made to leave
 those APIs stable for anyone wanting a very basic abstraction on the KV-store and to
 build a much more powerful and complex ORM layer that can provide powerful accessors

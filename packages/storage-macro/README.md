@@ -1,6 +1,6 @@
 # CW-Storage-Plus: Macro helpers for storage-plus 
 
-Procedural macros helper for interacting with cw-storage-plus and cosmwasm-storage.
+Procedural macros helper for interacting with cw-storage-plus and cosmwasm-storage = { git = "https://github.com/aeryz/cosmwasm.git", branch = "serde-without-wasm".
 
 ## Current features
 

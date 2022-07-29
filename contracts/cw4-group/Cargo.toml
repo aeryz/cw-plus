@@ -31,7 +31,7 @@ cw2 = { path = "../../packages/cw2", version = "0.13.4" }
 cw4 = { path = "../../packages/cw4", version = "0.13.4" }
 cw-controllers = { path = "../../packages/controllers", version = "0.13.4" }
 cw-storage-plus = { path = "../../packages/storage-plus", version = "0.13.4" }
-cosmwasm-std = { version = "1.0.0" }
+cosmwasm-std = { git = "https://github.com/aeryz/cosmwasm.git", branch = "serde-without-wasm" }
 schemars = "0.8.1"
 serde = { version = "1.0.103", default-features = false, features = ["derive"] }
 thiserror = { version = "1.0.23" }
