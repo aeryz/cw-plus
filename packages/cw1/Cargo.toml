@@ -9,7 +9,7 @@ repository = "https://github.com/CosmWasm/cw-plus"
 homepage = "https://cosmwasm.com"
 
 [dependencies]
-cosmwasm-std = { git = "https://github.com/aeryz/cosmwasm.git", branch = "serde-without-wasm" }
+cosmwasm-std = { git = "https://github.com/aeryz/cosmwasm.git", branch = "serde-no-wasm" }
 schemars = "0.8.1"
 serde = { version = "1.0.103", default-features = false, features = ["derive"] }
 

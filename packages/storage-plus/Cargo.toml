@@ -18,7 +18,7 @@ macro = ["cw-storage-macro"]
 bench = false
 
 [dependencies]
-cosmwasm-std = { git = "https://github.com/aeryz/cosmwasm.git", branch = "serde-without-wasm", default-features = false }
+cosmwasm-std = { git = "https://github.com/aeryz/cosmwasm.git", branch = "serde-no-wasm", default-features = false }
 schemars = "0.8.1"
 serde = { version = "1.0.103", default-features = false, features = ["derive"] }
 cw-storage-macro = { version = "0.13.4", optional = true, path = "../storage-macro" }

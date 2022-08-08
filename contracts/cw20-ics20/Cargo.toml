@@ -21,7 +21,7 @@ library = []
 cw-utils = { path = "../../packages/utils", version = "0.13.4" }
 cw2 = { path = "../../packages/cw2", version = "0.13.4" }
 cw20 = { path = "../../packages/cw20", version = "0.13.4" }
-cosmwasm-std = { git = "https://github.com/aeryz/cosmwasm.git", branch = "serde-without-wasm", features = ["stargate"] }
+cosmwasm-std = { git = "https://github.com/aeryz/cosmwasm.git", branch = "serde-no-wasm", features = ["stargate"] }
 cw-storage-plus = { path = "../../packages/storage-plus", version = "0.13.4" }
 cw-controllers = { path = "../../packages/controllers", version = "0.13.4" }
 schemars = "0.8.1"

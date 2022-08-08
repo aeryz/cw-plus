@@ -19,7 +19,7 @@ backtrace = ["anyhow/backtrace"]
 [dependencies]
 cw-utils = { path = "../../packages/utils", version = "0.13.4" }
 cw-storage-plus = { path = "../../packages/storage-plus", version = "0.13.4"}
-cosmwasm-std = { git = "https://github.com/aeryz/cosmwasm.git", branch = "serde-without-wasm", features = ["staking"] }
+cosmwasm-std = { git = "https://github.com/aeryz/cosmwasm.git", branch = "serde-no-wasm", features = ["staking"] }
 cosmwasm-storage = { git = "https://github.com/aeryz/cosmwasm.git", branch = "serde-without-wasm" }
 itertools = "0.10.1"
 schemars = "0.8.1"
